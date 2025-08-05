@@ -1,8 +1,4 @@
-### Prerequisites :
 
-- Make sure you have the LTS version of [Node](https://nodejs.org/) installed.
-- Install [git](https://git-scm.com/downloads) for version control.
-- Install [MongoDB](https://www.mongodb.com/try/download/community) locally. ([Resource](https://www.mongodb.com/docs/manual/administration/install-community/))
 
 ### Installation :
 
@@ -14,8 +10,4 @@
 - Step 6: Run the mongodb server on port: `27017` using `mongod`.
 - Step 7: While mongod is still running, open a new tab and again `cd` inside the `medcare-server` directory and run the backend server using `node app.js` or using [nodemon](https://www.npmjs.com/package/nodemon) - `nodemon app.js`. The backend server will start on `localhost:5000`.
 
-#### Note :
 
-- Don't forget to close all the running servers before closing the terminal/ command line.
-- Close all the running servers by visiting to every tab of the terminal the server is running on.
-- To close a running server use `ctrl+c`.
